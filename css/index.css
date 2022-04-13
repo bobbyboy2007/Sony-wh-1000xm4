@@ -1,0 +1,119 @@
+@charset "UTF-8";
+ 
+:root {
+    --primary: rgb(0, 0, 0);
+    --dark: rgb(165, 126, 19);
+    --light: #fff;
+    --shadow: 0 7px 15px rgba(104. 104, 104, 0.8);
+}
+ 
+.wrapper {
+    display: grid;
+    gap: 20px;
+}
+ 
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+}
+ 
+body {
+    background: #ccc;
+    margin: 20px 20px;
+    line-height: 1.4em;
+}
+ 
+.main-nav ul {
+    display: grid;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ 
+.main-nav a {
+    background: var(--light);
+    display: block;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(184, 144, 0);
+    text-decoration-thickness: auto;
+    padding: 0.9rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    box-shadow: var(--shadow);
+    border-radius: 17px 0px 17px 0px;
+    /*border-radius: 50%;*/
+}
+ 
+.main-nav a:hover {
+    background: rgb(34, 34, 34);
+    color: rgb(224, 165, 0);
+}
+ 
+header h2:hover {
+    color:#000000;
+}
+ 
+header p:hover {
+    color:#000000;
+}
+ 
+ 
+/*
+body {
+    margin: 0;
+    height: 100vh;
+}
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-areas: "grid-head grid-head grid-head" "grid-image grid-image grid-text" "grid-image grid-image grid-text" "grid-footer grid-footer grid-footer";
+    height: 100vh;
+    margin: 1em;    
+}
+ 
+section.grid-head {
+    grid-area: grid-head;
+    background: #2e2e2e;
+    border-radius: 0px 50px 0px 0px;
+}
+ 
+section.grid-image {
+    grid-area: grid-image;
+    /*background: #fffadf;*/
+    background: url('../images/Sony_GIF.gif');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+section.grid-text {
+    grid-area: grid-text;
+    background: var(--primary);
+    margin-left: 20px;
+    margin-right: 2px;
+    font-size: 0.9em;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.text {
+    object-position: center;
+    margin-left: 10px;
+    margin-right: 11px;
+    margin-top: 52.7px;
+    margin-bottom: 52.7px;
+}
+ 
+section.grid-footer {
+    grid-area: grid-footer;
+    background: #2b2b2b;
+}
