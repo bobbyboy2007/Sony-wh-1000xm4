@@ -15,5 +15,6 @@
 * Colour
   * The reason for picking the colours of the Home Page: We used these colours becuase it maches the flagship colour way of the product
 * Layout 
+  * The reason for using this layout of the home page: We chose this layout because it looked clean and neat. The home page GIF is evem amd right next to the information.
 * Font styles
 * Media
