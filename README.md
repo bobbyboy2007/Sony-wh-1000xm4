@@ -22,3 +22,5 @@ Title: Design and devolop a digital website
   * The reason for using this layout of the home page: We chose this layout because it looked clean and neat. The home page GIF is even and right next to the information.
 * Font styles
 * Media
+
+<a href="task"><image src=
