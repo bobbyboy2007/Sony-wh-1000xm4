@@ -24,4 +24,4 @@ Aaryan Sandhu: Design and devolop a digital website
 * Font styles
 * Media
 
-<a href="task">Home Page ss<image src=
+<a href="task"><image src= Home Page ss
